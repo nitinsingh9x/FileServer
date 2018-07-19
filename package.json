@@ -1,0 +1,20 @@
+{
+    "name": "mock-service",
+    "version": "1.0.0",
+    "description": "Simple Node.js API server which is used for mock service",
+    "license": "@GE",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "uuid": "^3.2.1",
+        "json-server": "^0.12.2",
+        "multer": "^1.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.3"
+    }
+}
