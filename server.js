@@ -3,6 +3,7 @@ var express = require('express'),
 cors = require('cors');
 uuidv4 = require('uuid/v4');
 bodyParser = require('body-parser')
+var multer = require('multer');
 app = express();
 port = process.env.PORT || 3000;
 const API_VERSION = '/api/v1/';
