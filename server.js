@@ -225,6 +225,7 @@ app.get("/api/getAllFileName", function (req, res) {
 
 //Shravya
 app.get("/api/getAllMatrix", function (req, res) {
-      
-      res.send(JSON.stringify('data'));
+      let rawdata = fs.readFileSync('shravya.json');  
+      let matrixList = JSON.parse(rawdata);  
+      res.send(JSON.stringify(matrixList));
 });
