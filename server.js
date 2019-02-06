@@ -222,3 +222,9 @@ app.get("/api/getAllFileName", function (req, res) {
       })
       res.send(JSON.stringify(fileList));
 });
+
+//Shravya
+app.get("/api/getAllMatrix", function (req, res) {
+      
+      res.send(JSON.stringify('data'));
+});
